@@ -10,7 +10,7 @@
 - GTA는 미국이나 타국을 배경이며, 실제영상은 한국으로 매칭이 되는지에 대한 가능성
 
 ![CycleGAN%20GTA5-to-Real%20Image%20aff4293d222143ffb6b6d82029785cce/Untitled.png](https://github.com/justin95214/CycleGAN-GTA-to-Real-Image/blob/main/src/Untitled%201.png)
-
+![CycleGAN%20GTA5-to-Real%20Image%20aff4293d222143ffb6b6d82029785cce/Untitled.png](https://github.com/justin95214/CycleGAN-GTA-to-Real-Image/blob/main/src/Untitled.png)
 실제 학습에 사용한 데이터
 
 ![CycleGAN%20GTA5-to-Real%20Image%20aff4293d222143ffb6b6d82029785cce/Untitled%201.png](https://github.com/justin95214/CycleGAN-GTA-to-Real-Image/blob/main/src/Untitled%202.png)
