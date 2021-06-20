@@ -11,9 +11,9 @@
 
 ![CycleGAN%20GTA5-to-Real%20Image%20aff4293d222143ffb6b6d82029785cce/Untitled.png](CycleGAN%20GTA5-to-Real%20Image%20aff4293d222143ffb6b6d82029785cce/Untitled.png)
 
-               실제 학습에 사용한 데이터
+실제 학습에 사용한 데이터
 
-                       <GTA 온라인 버전 석양 질 시간대 > <YouTube을 통해 다운받은 낮 운전 영상>
+<GTA 온라인 버전 석양 질 시간대 > <YouTube을 통해 다운받은 낮 운전 영상>
 
 ![CycleGAN%20GTA5-to-Real%20Image%20aff4293d222143ffb6b6d82029785cce/Untitled%201.png](CycleGAN%20GTA5-to-Real%20Image%20aff4293d222143ffb6b6d82029785cce/Untitled%201.png)
 
