@@ -13,15 +13,13 @@
 
 실제 학습에 사용한 데이터
 
+![CycleGAN%20GTA5-to-Real%20Image%20aff4293d222143ffb6b6d82029785cce/Untitled%201.png](https://github.com/justin95214/CycleGAN-GTA-to-Real-Image/blob/main/src/Untitled%202.png)
 <GTA 온라인 버전 석양 질 시간대 > <YouTube을 통해 다운받은 낮 운전 영상>
-
-![CycleGAN%20GTA5-to-Real%20Image%20aff4293d222143ffb6b6d82029785cce/Untitled%201.png](CycleGAN%20GTA5-to-Real%20Image%20aff4293d222143ffb6b6d82029785cce/Untitled%201.png)
-
 # [2]. CycleGAN?란
 
 ## PIX2PIX + GAN = CycleGAN
 
-![CycleGAN%20GTA5-to-Real%20Image%20aff4293d222143ffb6b6d82029785cce/Untitled%202.png](CycleGAN%20GTA5-to-Real%20Image%20aff4293d222143ffb6b6d82029785cce/Untitled%202.png)
+![CycleGAN%20GTA5-to-Real%20Image%20aff4293d222143ffb6b6d82029785cce/Untitled%202.png](https://github.com/justin95214/CycleGAN-GTA-to-Real-Image/blob/main/src/Untitled%203.png)
 
 1. Pix2pix모델은 input과 ground truth가 맵핑됨 
 
@@ -34,7 +32,7 @@
 
 ## CycleGAN의 간략요약
 
-![CycleGAN%20GTA5-to-Real%20Image%20aff4293d222143ffb6b6d82029785cce/Untitled%203.png](CycleGAN%20GTA5-to-Real%20Image%20aff4293d222143ffb6b6d82029785cce/Untitled%203.png)
+![CycleGAN%20GTA5-to-Real%20Image%20aff4293d222143ffb6b6d82029785cce/Untitled%203.png](https://github.com/justin95214/CycleGAN-GTA-to-Real-Image/blob/main/src/Untitled%204.png)
 
 - X에서 Y로의 변환 모델을 학습시키고자 할 때, G: X→Y 뿐 아니라 F: Y→X를 동시에 학습시킴
 
@@ -44,7 +42,7 @@
 
 ## Cycle consistency
 
-![CycleGAN%20GTA5-to-Real%20Image%20aff4293d222143ffb6b6d82029785cce/Untitled%204.png](CycleGAN%20GTA5-to-Real%20Image%20aff4293d222143ffb6b6d82029785cce/Untitled%204.png)
+![CycleGAN%20GTA5-to-Real%20Image%20aff4293d222143ffb6b6d82029785cce/Untitled%204.png](https://github.com/justin95214/CycleGAN-GTA-to-Real-Image/blob/main/src/Untitled%205.png)
 
 1. G가 input x와 학습방향에 연관되어 있는 output을 만들었다는 것
 2. output이 외관은 바뀌었지만 input x와 같은 concept을 공유한다는 의미로 해석함
@@ -57,7 +55,7 @@
 
 - **Adversarial Loss**
 
-![CycleGAN%20GTA5-to-Real%20Image%20aff4293d222143ffb6b6d82029785cce/Untitled%205.png](CycleGAN%20GTA5-to-Real%20Image%20aff4293d222143ffb6b6d82029785cce/Untitled%205.png)
+![CycleGAN%20GTA5-to-Real%20Image%20aff4293d222143ffb6b6d82029785cce/Untitled%205.png](https://github.com/justin95214/CycleGAN-GTA-to-Real-Image/blob/main/src/Untitled%206.png)
 
 A>>B로 가는 모델과 B>>A 로 가는 모델의 맵핑함수는 adversarial loss를 활용함
 
@@ -69,7 +67,7 @@ adversarial loss에 consistency개념이 더해져서, 다시 A>>B 로 만든 �
 
 Adversarial losses 단독으로는 매핑 함수를 제대로 된 학습을 보장하기 어려워 한번 더 하는 것이라고 이해함
 
-![CycleGAN%20GTA5-to-Real%20Image%20aff4293d222143ffb6b6d82029785cce/Untitled%206.png](CycleGAN%20GTA5-to-Real%20Image%20aff4293d222143ffb6b6d82029785cce/Untitled%206.png)
+![CycleGAN%20GTA5-to-Real%20Image%20aff4293d222143ffb6b6d82029785cce/Untitled%206.png](https://github.com/justin95214/CycleGAN-GTA-to-Real-Image/blob/main/src/Untitled%207.png)
 
 # [3]. 구현 조건
 
@@ -81,7 +79,7 @@ Adversarial losses 단독으로는 매핑 함수를 제대로 된 학습을 보�
 - [X >> Y] Generator와 [Y >> X] Generator Loss는 MSELoss를 사용, Cycle, Identity Loss는 L1Loss를 사용
 - Tatal Loss = Cycle Loss와 Identity Loss 에는 10/5로 가중치를 둠
 
-![CycleGAN%20GTA5-to-Real%20Image%20aff4293d222143ffb6b6d82029785cce/Untitled%207.png](CycleGAN%20GTA5-to-Real%20Image%20aff4293d222143ffb6b6d82029785cce/Untitled%207.png)
+![CycleGAN%20GTA5-to-Real%20Image%20aff4293d222143ffb6b6d82029785cce/Untitled%207.png](https://github.com/justin95214/CycleGAN-GTA-to-Real-Image/blob/main/src/Untitled%208.png)
 
 - Epoch이 낮을 때는, 영상의 화질 낮게 출력되는 현상 있고, 아직 GTA게임에 가까움
 1. 전반적으로, 창을 통해 보이는
@@ -119,7 +117,7 @@ Adversarial losses 단독으로는 매핑 함수를 제대로 된 학습을 보�
 
 ### Epoch이 진행될수록 점점 학습이 무뎌지는 현상
 
-![CycleGAN%20GTA5-to-Real%20Image%20aff4293d222143ffb6b6d82029785cce/Untitled%208.png](CycleGAN%20GTA5-to-Real%20Image%20aff4293d222143ffb6b6d82029785cce/Untitled%208.png)
+![CycleGAN%20GTA5-to-Real%20Image%20aff4293d222143ffb6b6d82029785cce/Untitled%208.png](https://github.com/justin95214/CycleGAN-GTA-to-Real-Image/blob/main/src/Untitled%209.png)
 
 110epoch의 fps의 한 장면을 본 결과, 같은 Epoch이지만 미세하게 계속 학습되는 경향으로 개선 시킴
 게다가 이미지가 뿌옇게 되는 현상도 감소하며, 차량 거울에 반사된 풍경도 더욱 선명해짐
