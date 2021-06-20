@@ -1,4 +1,4 @@
-# CycleGAN-GTA-to-Real-Image# CycleGAN GTA5-to-Real Image
+# CycleGAN GTA5-to-Real Image
 
 # [1]. 실험목표
 
