@@ -81,7 +81,7 @@ Adversarial losses 단독으로는 매핑 함수를 제대로 된 학습을 보�
 - [X >> Y] Generator와 [Y >> X] Generator Loss는 MSELoss를 사용, Cycle, Identity Loss는 L1Loss를 사용
 - Tatal Loss = Cycle Loss와 Identity Loss 에는 10/5로 가중치를 둠
 
-![CycleGAN%20GTA5-to-Real%20Image%20aff4293d222143ffb6b6d82029785cce/Untitled%207.png](https://github.com/justin95214/CycleGAN-GTA-to-Real-Image/blob/main/src/Untitled%207.png)
+![CycleGAN%20GTA5-to-Real%20Image%20aff4293d222143ffb6b6d82029785cce/Untitled%207.png](https://github.com/justin95214/CycleGAN-GTA-to-Real-Image/blob/main/src/Untitled11.png)
 
 - Epoch이 낮을 때는, 영상의 화질 낮게 출력되는 현상 있고, 아직 GTA게임에 가까움
 1. 전반적으로, 창을 통해 보이는
@@ -89,6 +89,7 @@ Adversarial losses 단독으로는 매핑 함수를 제대로 된 학습을 보�
 2. 사람의 살색 경우 아직까지 노란빛이 돔
 전면에 보이는 도로와 노란색 자동차가 진한 노란색인데 뿌옇게 노란색이 됨
 
+![CycleGAN%20GTA5-to-Real%20Image%20aff4293d222143ffb6b6d82029785cce/Untitled%207.png](https://github.com/justin95214/CycleGAN-GTA-to-Real-Image/blob/main/src/Untitled12.png)
 - 50 Epoch이상부터는 전반적으로, 픽셀이 번지는 현상이 발생하지만, 전반적으로
 색상이 진해지며, 잉크 번지듯이 차량 내부 틀 색이 망가짐
 1. GTA차량은 차량내부는 검정색이지만,예측은 기아차의 내부 회색으로  변경됨
@@ -96,6 +97,7 @@ Adversarial losses 단독으로는 매핑 함수를 제대로 된 학습을 보�
 2. GT이미지와 GTA이미지가 섞여지기 시작함
 3. GTA의 전반적 틀은 맞지만, 핸들의 손위치가 GTA와 살짝 다르고 오히려 GT에서 비슷한 이미지를 찾는 느낌이 강하게 듬 >> mode collapse 발생
 
+![CycleGAN%20GTA5-to-Real%20Image%20aff4293d222143ffb6b6d82029785cce/Untitled%207.png](https://github.com/justin95214/CycleGAN-GTA-to-Real-Image/blob/main/src/Untitled13.png)
 - 100 Epoch이상 부터, 영상의 화질 낮게 출력되는 현상
 1. 전반적으로, 창을 통해 보이는
 구름과 하늘 색은 저녁 > 구름 낀 하늘로 변경됨
