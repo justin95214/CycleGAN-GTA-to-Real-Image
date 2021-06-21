@@ -154,7 +154,7 @@ Adversarial losses 단독으로는 매핑 함수를 제대로 된 학습을 보�
 
 ## 4. A>>B / B>>A 결과
 
-![CycleGAN2%2018f9179936fc41ea972447935a054f68/Untitled%201.png](https://github.com/justin95214/CycleGAN-GTA-to-Real-Image/blob/main/src/Untitled%2021.png.png)
+![CycleGAN2%2018f9179936fc41ea972447935a054f68/Untitled%201.png](https://github.com/justin95214/CycleGAN-GTA-to-Real-Image/blob/main/src/Untitled%2021.png)
 
 ## 5. 실험 결론
 
