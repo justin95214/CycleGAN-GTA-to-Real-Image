@@ -184,7 +184,11 @@ GTA Image-To-Real Image Translation의 개선
 
 - GPU 메모리가 좀 더 확보했으면, 저 높은 해상도의 Translation결과를 기대함
 - 눈으로 기준으로 하는 것보다 Object Detection을 적용하여, 실제로 Class별 정확도와 Pix별 정확도를 기준으로 실험을 개선했으면 하는 바램 >> 데이터셋을 조금 더 확보하고 , 이번 실험을 바탕으로 모델을 개선하여 조금 더 실제 영상처럼 기여하고 싶음
-
+- 추가로 공부하면서
+### CycleGAN과 유사한 구조의 CYCADA라는 논문을 참고해서 개선하고자 함. 
+- 결과는 mode collapse 문제보다 변환하고자 하는 도메인 영상의 다양성이 부족한것 같기도 하지만, 한번 학습하는데 7일 걸리게되므로  small 데이터로 가성비 있게 할 수있을지 고려해야 할 것 같음
+-  Long-tailed classification 문제로 anomaly detection을 접근한다면 out-of-distribution detection 관점에서 loss를 바꾸는것이 일반적이지만, 이번 실험은 상상해서 접근한 것이라, distribution관점에서 재접근 방식으로 고려해야 할 것 같음
+-  WGAN loss는 결과물을 이미지로 출력시 tensor에 clamp_()를 통한 값 clipping이 제대로 수행되었는지 확인해야 될 것 같음. 조사에 의하면 더욱 좋아져야함
 
 # [6]참고 자료
 - https://mikigom.github.io/jekyll/update/2017/07/11/cyclegan.html
