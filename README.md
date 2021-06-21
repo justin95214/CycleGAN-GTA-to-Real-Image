@@ -143,7 +143,7 @@ Adversarial losses 단독으로는 매핑 함수를 제대로 된 학습을 보�
 - 그러면서 Total Loss의 히스토그램이 낮게 나와 기뻐했지만, 당연한 걸 깨닫게 됨 >> 수치가 낮은 것은 의미가 없고 그래프가 모양을 봐야 한다는 것을 파악함
 - 현실성이 높아지고 뭉게지는 현상이 많이 사라졌지만, 아직 실제로 GT에 해당되는 이미지와 많이 다름
 
-## 3. 학습이되면서, 영상이 뿌옇게 되는 현상
+## 3. 차량 내부와 창 밖의 풍경의 채도와 색상이 맞지않는 현상 
 <img width="80%" src="https://github.com/justin95214/CycleGAN-GTA-to-Real-Image/blob/main/src/media2.gif"/>
 이미지가 DataLoader를 통해 CycleGAN에서도 처음 구현할 때 pix2pix처럼 이미지를 patch하여 넣기 때문에, patch된 이미지에서 채도와 색상이 변환된다고 생각되어, crop하지않고, 이미지 전체를 한 번에 넣어 학습했음
 
