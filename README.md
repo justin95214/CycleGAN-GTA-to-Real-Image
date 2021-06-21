@@ -182,4 +182,11 @@ GTA Image-To-Real Image Translation의 개선
 
 - GPU 메모리가 좀 더 확보했으면, 저 높은 해상도의 Translation결과를 기대함
 - 눈으로 기준으로 하는 것보다 Object Detection을 적용하여, 실제로 Class별 정확도와 Pix별 정확도를 기준으로 실험을 개선했으면 하는 바램 >> 데이터셋을 조금 더 확보하고 , 이번 실험을 바탕으로 모델을 개선하여 조금 더 실제 영상처럼 기여하고 싶음
+
+
 # [6]참고 자료
+- https://mikigom.github.io/jekyll/update/2017/07/11/cyclegan.html
+- https://engineer-mole.tistory.com/50
+- https://chloe-ki.tistory.com/entry/cyclegan
+- https://arxiv.org/abs/1703.10593
+- http://www.kwangsiklee.com/2018/03/cyclegan%EC%9D%B4-%EB%AC%B4%EC%97%87%EC%9D%B8%EC%A7%80-%EC%95%8C%EC%95%84%EB%B3%B4%EC%9E%90/
