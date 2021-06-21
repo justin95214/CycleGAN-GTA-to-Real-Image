@@ -133,7 +133,7 @@ Adversarial losses 단독으로는 매핑 함수를 제대로 된 학습을 보�
 ## 2. 학습이되면서, 영상이 뿌옇게 되는 현상
 <img width="80%" src="https://github.com/justin95214/CycleGAN-GTA-to-Real-Image/blob/main/src/media1.gif"/>
   # CycleGAN2
-![CycleGAN2%2018f9179936fc41ea972447935a054f68/Untitled.png](CycleGAN2%2018f9179936fc41ea972447935a054f68/Untitled.png)
+![CycleGAN2%2018f9179936fc41ea972447935a054f68/Untitled.png](https://github.com/justin95214/CycleGAN-GTA-to-Real-Image/blob/main/src/Untitled%2020.png)
 
 - 개선 방향 1일 때는 Default값으로, W1과 W2에 각10/5로 설정
 - 개선 방향 2일 때는 W1과 W2에 각 1/1로 설정
@@ -155,7 +155,7 @@ Adversarial losses 단독으로는 매핑 함수를 제대로 된 학습을 보�
 
 ## 4. A>>B / B>>A 결과
 
-![CycleGAN2%2018f9179936fc41ea972447935a054f68/Untitled%201.png](CycleGAN2%2018f9179936fc41ea972447935a054f68/Untitled%201.png)
+![CycleGAN2%2018f9179936fc41ea972447935a054f68/Untitled%201.png](https://github.com/justin95214/CycleGAN-GTA-to-Real-Image/blob/main/src/Untitled%2021.png.png)
 
 ## 5. 실험 결론
 
