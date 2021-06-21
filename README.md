@@ -178,6 +178,8 @@ GTA Image-To-Real Image Translation의 개선
 ## 5-1. 시행 착오 영상들
 <img width="80%" src="https://github.com/justin95214/CycleGAN-GTA-to-Real-Image/blob/main/src/media3_Trim.gif"/>
 <img width="80%" src="https://github.com/justin95214/CycleGAN-GTA-to-Real-Image/blob/main/src/media5_Trim.gif"/>
+
+
 ## 6. 아쉬운 점
 
 - GPU 메모리가 좀 더 확보했으면, 저 높은 해상도의 Translation결과를 기대함
