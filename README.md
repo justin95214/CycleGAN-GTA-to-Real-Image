@@ -176,7 +176,8 @@ GTA Image-To-Real Image Translation의 개선
 4. 학습하면서 기존에 epoch이 높아질수록 80을 넘어가는 순간부터 오히려 mode collapse현상이 발생했었는데 , 이번 실험을 통해 줄이는 가능성을 보았음
 
 ## 5-1. 시행 착오 영상들
-
+<img width="80%" src="https://github.com/justin95214/CycleGAN-GTA-to-Real-Image/blob/main/src/media3.gif"/>
+<img width="80%" src="https://github.com/justin95214/CycleGAN-GTA-to-Real-Image/blob/main/src/media5.gif"/>
 ## 6. 아쉬운 점
 
 - GPU 메모리가 좀 더 확보했으면, 저 높은 해상도의 Translation결과를 기대함
