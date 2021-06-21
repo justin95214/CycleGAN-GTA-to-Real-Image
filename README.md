@@ -129,7 +129,8 @@ Adversarial losses 단독으로는 매핑 함수를 제대로 된 학습을 보�
 
 ![CycleGAN%20GTA5-to-Real%20Image%20aff4293d222143ffb6b6d82029785cce/Untitled%209.png](https://github.com/justin95214/CycleGAN-GTA-to-Real-Image/blob/main/src/Untitled%209.png)
 
-
+<html>
 <iframe width="1064" height="608" src="https://www.youtube.com/embed/xOzlmBE7--g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
+</html>
+  
 # [6]참고 자료
