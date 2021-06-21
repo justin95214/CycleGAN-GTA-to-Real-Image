@@ -156,8 +156,8 @@ Adversarial losses 단독으로는 매핑 함수를 제대로 된 학습을 보�
 
 ![CycleGAN2%2018f9179936fc41ea972447935a054f68/Untitled%201.png](https://github.com/justin95214/CycleGAN-GTA-to-Real-Image/blob/main/src/Untitled%2021.png)
 
-## 5. 실험 결론
-
+# [5]. 실험 결론
+## 1. 실험 결론
 GTA Image-To-Real Image Translation의 개선
 
 - 논문을 구현하여, 모델을 적용한 결과 시간대가 다른 GTA영상과 실제영상 간에 변환이 되는지에 대해서 실험함
@@ -180,7 +180,7 @@ GTA Image-To-Real Image Translation의 개선
 <img width="80%" src="https://github.com/justin95214/CycleGAN-GTA-to-Real-Image/blob/main/src/media5_Trim.gif"/>
 
 
-## 6. 아쉬운 점
+## 2. 아쉬운 점
 
 - GPU 메모리가 좀 더 확보했으면, 저 높은 해상도의 Translation결과를 기대함
 - 눈으로 기준으로 하는 것보다 Object Detection을 적용하여, 실제로 Class별 정확도와 Pix별 정확도를 기준으로 실험을 개선했으면 하는 바램 >> 데이터셋을 조금 더 확보하고 , 이번 실험을 바탕으로 모델을 개선하여 조금 더 실제 영상처럼 기여하고 싶음
